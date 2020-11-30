@@ -1,0 +1,482 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Nerko+One&display=swap");
+
+/* Nav-Bar */
+
+.navbar {
+  font-family: "Courgette", cursive;
+  background-color: #384e8a;
+}
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+.nav-item {
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+.btn {
+  margin-right: 5px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  background: url(images/background.jpg);
+}
+.jumbotronImg1 {
+  margin: auto;
+  max-width: auto;
+  max-height: 500px;
+  border-radius: 50%;
+}
+.jumbotronImg2 {
+  margin: auto;
+  max-width: auto;
+  max-height: 500px;
+  border-radius: 50%;
+  transform: rotate(25deg);
+}
+.display-4 {
+  padding-top: 100px;
+  font-family: "Nerko One", cursive;
+  font-size: 65px !important;
+  color: #384e8a;
+}
+.display-5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px !important;
+  font-weight: bold !important;
+  padding-top: 200px;
+  color: white;
+}
+.lead {
+  padding-top: 50px;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+/* Carousel */
+
+#carousel {
+  background-color: #384e8a;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  color: #ff4c68;
+}
+.cn {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 60px;
+}
+.carousel-item {
+  padding-top: 30px;
+}
+.carousel-image {
+  height: auto;
+  width: 450px;
+  border-radius: 20%;
+}
+.carouselText {
+  padding-top: 50px;
+  font-family: "Nerko One", cursive;
+  font-size: 65px !important;
+  color: #ff4c68;
+}
+.carousel-text {
+  font-family: "Courgette", cursive;
+  font-size: 45px !important;
+  color: #ff4c68;
+}
+.carouseleText1 {
+  padding-top: 50px;
+  font-family: "Courgette", cursive;
+  text-decoration: underline;
+  font-size: 35px !important;
+  color: #ff4c68;
+}
+
+/* Info */
+
+#info {
+  margin: auto;
+  width: 95%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.infoText {
+  padding-top: 10px;
+  font-family: "Nerko One", cursive;
+  font-size: 45px !important;
+  color: #384e8a;
+  text-decoration: underline;
+}
+.infoText1 {
+  padding-top: 15px;
+  font-family: "Nerko One", cursive;
+  font-size: 21px !important;
+  color: #384e8a;
+}
+.infoUl {
+  font-family: "Nerko One", cursive;
+  font-size: 17px !important;
+  color: #384e8a;
+  text-align: left;
+}
+.infoImg {
+  max-width: 360px;
+  max-height: auto;
+}
+
+/* Card */
+
+#card {
+  background-color: #384e8a;
+  position: relative;
+  margin: auto;
+  padding: 50px 20px 50px 20px;
+}
+.cardImg {
+  max-width: 310px;
+  border-radius: 50%;
+}
+.cardtext {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 48px;
+  padding-bottom: 70px;
+}
+.card-header {
+  font-family: "Nerko One", cursive;
+  color: #384e8a;
+  text-align: center;
+}
+.card-body {
+  font-family: "Nerko One", cursive;
+  color: #384e8a;
+}
+
+/* Footer */
+
+#footer {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  height: 70px;
+}
+.footer-next {
+  margin-top: 70px;
+}
+.foot {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 21px;
+}
+a {
+  padding-left: 20px;
+}
+
+/* Responsive Site */
+
+@media screen and (max-width: 575px) {
+  /* Nav-Bar */
+
+  .navbar {
+    font-family: "Courgette", cursive;
+    background-color: #384e8a;
+  }
+  .logo {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .nav-item {
+    padding-right: 0px;
+    font-size: 1rem;
+  }
+  .btn {
+    margin-right: 0;
+  }
+  /* Jumbotron */
+
+  .jumbotron {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background: url(images/background.jpg);
+  }
+  .jumbotronImg1 {
+    margin: auto;
+    max-width: auto;
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  .jumbotronImg2 {
+    margin: auto;
+    margin-top: 20px;
+    max-width: auto;
+    max-height: 150px;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  .display-4 {
+    padding-top: 10px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #384e8a;
+  }
+  .display-5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding-top: 50px;
+    color: white;
+  }
+  /* Carousel */
+
+  #carousel {
+    background-color: #384e8a;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #ff4c68;
+  }
+  .cn {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 60px;
+  }
+  .carousel-item {
+    padding-top: 30px;
+  }
+  .carousel-image {
+    height: auto;
+    width: 300px;
+    border-radius: 20%;
+  }
+  .carouselText {
+    padding-top: 50px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #ff4c68;
+  }
+  .carousel-text {
+    font-family: "Courgette", cursive;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+  .carouseleText1 {
+    padding-top: 50px;
+    font-family: "Courgette", cursive;
+    text-decoration: underline;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+
+  /* Info */
+
+  .infoImg {
+    max-width: 360px;
+    max-height: auto;
+  }
+  .infoVid {
+    max-width: 360px;
+    max-height: auto;
+  }
+  /* Card */
+
+  .card {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 900px) {
+  /* Jumbotron */
+
+  .jumbotronImg1 {
+    margin: auto;
+    max-width: auto;
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  .jumbotronImg2 {
+    margin: auto;
+    margin-top: 20px;
+    max-width: auto;
+    max-height: 250px;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  .display-4 {
+    padding-top: 10px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #384e8a;
+  }
+  .display-5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding-top: 50px;
+    color: white;
+  }
+
+  /* Carousel */
+
+  #carousel {
+    background-color: #384e8a;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: #ff4c68;
+  }
+  .cn {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 60px;
+  }
+  .carousel-item {
+    padding-top: 30px;
+  }
+  .carousel-image {
+    height: auto;
+    width: 300px;
+    border-radius: 20%;
+  }
+  .carouselText {
+    padding-top: 50px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #ff4c68;
+  }
+  .carousel-text {
+    font-family: "Courgette", cursive;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+  .carouseleText1 {
+    padding-top: 50px;
+    font-family: "Courgette", cursive;
+    text-decoration: underline;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+
+  /* Info */
+
+  .infoImg {
+    max-width: 360px;
+    max-height: auto;
+  }
+  .infoVid {
+    max-width: 360px;
+    max-height: auto;
+  }
+
+  /* Card */
+
+  .card {
+    margin: 20px 100px 20px 100px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  /* Jumbotron */
+
+  .jumbotronImg1 {
+    margin: auto;
+    max-width: auto;
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  .jumbotronImg2 {
+    margin: auto;
+    margin-top: 20px;
+    max-width: auto;
+    max-height: 250px;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  .display-4 {
+    padding-top: 10px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #384e8a;
+  }
+  .display-5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding-top: 50px;
+    color: white;
+  }
+
+  /* Carousel */
+
+  #carousel {
+    background-color: #384e8a;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: #ff4c68;
+  }
+  .cn {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 60px;
+  }
+  .carousel-item {
+    padding-top: 30px;
+  }
+  .carousel-image {
+    height: auto;
+    width: 300px;
+    border-radius: 20%;
+  }
+  .carouselText {
+    padding-top: 50px;
+    font-family: "Nerko One", cursive;
+    font-size: 45px !important;
+    color: #ff4c68;
+  }
+  .carousel-text {
+    font-family: "Courgette", cursive;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+  .carouseleText1 {
+    padding-top: 50px;
+    font-family: "Courgette", cursive;
+    text-decoration: underline;
+    font-size: 25px !important;
+    color: #ff4c68;
+  }
+
+  /* Info */
+
+  .infoImg {
+    max-width: 360px;
+    max-height: auto;
+  }
+  .infoVid {
+    max-width: 360px;
+    max-height: auto;
+  }
+
+  /* Card */
+
+  .card {
+    margin-top: 30px;
+  }
+}
